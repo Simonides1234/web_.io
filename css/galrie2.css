@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+    height: auto;
+  }
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+.image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }  
+.text{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3); /* černé pozadí, 60% průhlednost */
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.3;
+    font-size: 16px;
+    padding: 5px 0;
+    transition: opacity 1s ease;
+}  
+.text:hover {
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 1;
+}
+
+  .okenko {
+      width: 200px;
+      height: 40px;
+      border: 2px solid #000; /* černý rámeček */
+      background-color: #f0f0f0; /* světle šedé pozadí */
+      border-radius: 10px; /* zaoblené rohy */
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* stín */
+      margin: 20px auto;
+    }
